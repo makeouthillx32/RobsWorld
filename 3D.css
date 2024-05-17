@@ -4,8 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh; /* Reduce height to move it higher */
-    margin-top: 100px; /* Move the hero2 section up */
+    height: 500px; /* Adjust height as needed */
+    margin-top: -20px; /* Move the hero2 section up */
+    position: relative; /* Add relative positioning */
 }
 
 .model-viewer-container {
@@ -13,11 +14,13 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Align the 3D model to the top */
-    margin-top: -250px; /* Move the 3D model up */
+    align-items: center;
+    position: relative; /* Allow positioning within hero2 */
+    overflow: hidden; /* Ensure the viewport does not overflow */
 }
 
 model-viewer {
     width: 100%;
     height: 100%;
+    transform: translateY(-125px); /* Move model up by 200px */
 }
