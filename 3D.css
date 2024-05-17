@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 40vh; /* Reduce height to move it higher */
-    margin-top: -40px; /* Move the hero2 section up */
+    margin-top: -50px; /* Move the hero2 section up */
 }
 
 .model-viewer-container {
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start; /* Align the 3D model to the top */
-    margin-top: -40px; /* Move the 3D model up */
+    margin-top: -200px; /* Move the 3D model up */
 }
 
 model-viewer {
