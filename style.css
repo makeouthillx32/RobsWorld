@@ -42,11 +42,23 @@ body {
 .commissions-button {
     background-color: red;
     color: white;
-    border: none;
-    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 50px;
+    padding: 10px 40px;
     font-size: 1em;
     margin: 20px 0;
     cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.commissions-button:hover {
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+}
+
+.commissions-button:active {
+    transform: scale(0.95);
 }
 
 button:hover {

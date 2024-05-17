@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start; /* Align the 3D model to the top */
-    margin-top: -350px; /* Move the 3D model up */
+    margin-top: -250px; /* Move the 3D model up */
 }
 
 model-viewer {
