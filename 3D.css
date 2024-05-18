@@ -22,5 +22,19 @@
 model-viewer {
     width: 100%;
     height: 100%;
-    transform: translateY(-125px); /* Move model up by 200px */
+    transform: translateY(-125px); /* Default value for smaller screens */
+}
+
+/* Adjust position for medium screens */
+@media (min-width: 768px) {
+    model-viewer {
+        transform: translateY(-100px);
+    }
+}
+
+/* Adjust position for large screens */
+@media (min-width: 1024px) {
+    model-viewer {
+        transform: translateY(-50px);
+    }
 }
